@@ -3,9 +3,15 @@ defmodule RumblWeb.ErrorView do
 
   # If you want to customize a particular status code
   # for a certain format, you may uncomment below.
+<<<<<<< HEAD
   # def render("500.html", _assigns) do
   #   "Internal Server Error"
   # end
+=======
+  def render("500.html", _assigns) do
+     "Internal Server Error"
+  end
+>>>>>>> 4bd0e060573a19965c92c4d7811c46a31543e5fe
 
   # By default, Phoenix returns the status message from
   # the template name. For example, "404.html" becomes

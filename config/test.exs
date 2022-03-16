@@ -17,7 +17,11 @@ config :rumbl, Rumbl.Repo,
 # you can enable the server option below.
 config :rumbl, RumblWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
+<<<<<<< HEAD
   secret_key_base: "TZbKd9GtSz9yYLL8bhGumuffSfe/4H9xpT33TTldSGV5kOXlmCoULEs6OMAtmnsc",
+=======
+  secret_key_base: "2rbfJxrLSibEAETf59S357JIdcVADtXkaASB7H0Ana5e2mJNX3vw4dCOzz7S6i2V",
+>>>>>>> 4bd0e060573a19965c92c4d7811c46a31543e5fe
   server: false
 
 # In test we don't send emails.
