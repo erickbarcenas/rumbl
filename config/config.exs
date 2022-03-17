@@ -15,11 +15,8 @@ config :rumbl, RumblWeb.Endpoint,
   url: [host: "localhost"],
   render_errors: [view: RumblWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Rumbl.PubSub,
-<<<<<<< HEAD
-  live_view: [signing_salt: "pjJhHR2A"]
-=======
   live_view: [signing_salt: "64ZN8w0d"]
->>>>>>> 4bd0e060573a19965c92c4d7811c46a31543e5fe
+
 
 # Configures the mailer
 #

@@ -7,11 +7,7 @@ defmodule RumblWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_rumbl_key",
-<<<<<<< HEAD
-    signing_salt: "jv/8p2vT"
-=======
     signing_salt: "pYGr1a1V"
->>>>>>> 4bd0e060573a19965c92c4d7811c46a31543e5fe
   ]
 
   socket "/live", Phoenix.LiveView.Socket, websocket: [connect_info: [session: @session_options]]

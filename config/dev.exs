@@ -4,14 +4,9 @@ import Config
 config :rumbl, Rumbl.Repo,
   username: "postgres",
   password: "postgres",
-<<<<<<< HEAD
-  hostname: "localhost",
-  database: "rumbl_dev",
-=======
   database: "rumbl_dev",
   hostname: "localhost",
   port: 5432,
->>>>>>> 4bd0e060573a19965c92c4d7811c46a31543e5fe
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
@@ -28,11 +23,7 @@ config :rumbl, RumblWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-<<<<<<< HEAD
-  secret_key_base: "P9010Dh/6sfSJ4KOGraUIz6vUx8nVi8/DUvoKHDN2CIWuNstdiIxutmaB/lrMzIn",
-=======
   secret_key_base: "dBzweQsdHOH56Ay/rm1FyMC0pL7tdS2cAZHe8/7b39rdVHsALEaYueKNaCoYzZq9",
->>>>>>> 4bd0e060573a19965c92c4d7811c46a31543e5fe
   watchers: [
     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}
